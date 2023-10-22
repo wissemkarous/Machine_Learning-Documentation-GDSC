@@ -110,10 +110,10 @@ Define Your Objective: Clearly define the goal of your visualization. Are you tr
 
 Select the Right Chart Type: Different data types and objectives call for specific chart types. Here are some common types of visualizations and when to use them:
 
-Bar Chart: Use for comparing categories or showing discrete data.
-Line Chart: Ideal for displaying trends over time or ordered categories.
-Pie Chart: Use to show parts of a whole (proportions).
-Scatter Plot: Suitable for visualizing relationships between two numerical variables.
-Heatmap: Shows the intensity of relationships between two categorical variables.
-Histogram: Great for visualizing the distribution of a single numerical variable.
+Bar Chart: Use for comparing categories or showing discrete data.<br>
+Line Chart: Ideal for displaying trends over time or ordered categories.<br>
+Pie Chart: Use to show parts of a whole (proportions).<br>
+Scatter Plot: Suitable for visualizing relationships between two numerical variables.<br>
+Heatmap: Shows the intensity of relationships between two categorical variables.<br>
+Histogram: Great for visualizing the distribution of a single numerical variable.<br>
 for more details check this book : [ Resources/How-to-Choose.pdf](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf)https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf
