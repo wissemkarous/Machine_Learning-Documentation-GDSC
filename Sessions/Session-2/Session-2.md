@@ -116,4 +116,4 @@ Pie Chart: Use to show parts of a whole (proportions).
 Scatter Plot: Suitable for visualizing relationships between two numerical variables.
 Heatmap: Shows the intensity of relationships between two categorical variables.
 Histogram: Great for visualizing the distribution of a single numerical variable.
-for more details check this book :  Resources/How-to-Choose.pdf
+for more details check this book : [ Resources/How-to-Choose.pdf](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf)https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf
