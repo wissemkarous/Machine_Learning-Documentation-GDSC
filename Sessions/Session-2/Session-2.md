@@ -101,3 +101,19 @@ H. Pie plots
 4. Further learnings
 Styles and themes
 Colors
+# How choose visualization :
+Choosing the right visualization for your data is crucial for effectively communicating your insights and making data-driven decisions. Here are some steps to help you decide which visualization is most suitable for your data:
+
+Understand Your Data: Before selecting a visualization, you need a deep understanding of your data. Consider the type of data you have, whether it's categorical, numerical, time-series, or something else. Understand the relationships within the data, including trends, patterns, and outliers.
+
+Define Your Objective: Clearly define the goal of your visualization. Are you trying to compare data, show trends over time, identify patterns, or display proportions? Your objective will guide your choice of visualization.
+
+Select the Right Chart Type: Different data types and objectives call for specific chart types. Here are some common types of visualizations and when to use them:
+
+Bar Chart: Use for comparing categories or showing discrete data.
+Line Chart: Ideal for displaying trends over time or ordered categories.
+Pie Chart: Use to show parts of a whole (proportions).
+Scatter Plot: Suitable for visualizing relationships between two numerical variables.
+Heatmap: Shows the intensity of relationships between two categorical variables.
+Histogram: Great for visualizing the distribution of a single numerical variable.
+for more details check this book :  Resources/How-to-Choose.pdf
