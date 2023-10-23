@@ -5,7 +5,7 @@
 3.   Return result
 4. End Function
 # classic :
-function:
+###### function:
 FONCTION ident_fonction(<liste des paramètres>) : ident_type_retourné
        <déclarations paramètres>
        [<déclarations locales>]
@@ -14,7 +14,7 @@ FONCTION ident_fonction(<liste des paramètres>) : ident_type_retourné
     ...
   RETOURNE <résultat>
   FIN
-  procedure :
+  ###### procedure :
   PROCEDURE ident_procedure(<liste des paramètres>)
        [<déclarations paramètres>]
        [<déclarations locales>]
