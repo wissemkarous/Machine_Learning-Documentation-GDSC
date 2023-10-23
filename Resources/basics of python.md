@@ -39,22 +39,22 @@ def function_name(parameters):
     # Optionally, return a value
     return return_value
  exemple :
- def my_function():
-  print("Hello from a function")
+ def my_function(): <br>
+  print("Hello from a function") <br>
 
-my_function()
+my_function() <br>
 ##  Enumerate in python : 
 Here, we are using the enumerate() function with both a list and a string. Creating enumerate objects for each and displaying their return types. It also shows how to change the starting index for enumeration when applied to a string, resulting in index-element pairs for the list and string.
 exmp: 
-l1 = ["eat", "sleep", "repeat"]
-s1 = "geek"
+l1 = ["eat", "sleep", "repeat"] <br>
+s1 = "geek" <br>
 
-**creating enumerate objects
-obj1 = enumerate(l1)
-obj2 = enumerate(s1)
+**creating enumerate objects <br>
+obj1 = enumerate(l1) <br>
+obj2 = enumerate(s1) <br>
 
-print ("Return type:", type(obj1))
-print (list(enumerate(l1)))
+print ("Return type:", type(obj1)) <br>
+print (list(enumerate(l1))) <br>
 
-**changing start index to 2 from 0
-print (list(enumerate(s1, 2)))
+**changing start index to 2 from 0 <br>
+print (list(enumerate(s1, 2))) <br>
