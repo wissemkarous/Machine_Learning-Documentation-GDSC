@@ -5,7 +5,7 @@
 3.   Return result
 4. End Function
 # classic :
-###### function:
+###### function::
 FONCTION ident_fonction(<liste des paramètres>) : ident_type_retourné
        <déclarations paramètres>
        [<déclarations locales>]
