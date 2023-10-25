@@ -4,6 +4,10 @@ By the end of this session, participants will have a comprehensive understanding
 Data Visualization: Unveiling the Power
 Data visualization is the art and science of representing data graphically.
 It is a crucial tool in the data scientist's arsenal, serving several critical purposes.
+## General IT informations: 
+ 1- A compiled language is converted into machine code so that the processor can execute it, as c,c++,pascal
+ 2- An interpreted language is a language in which the implementations execute instructions directly without earlier compiling a program into machine language.
+    like python ,java,javascool 
 
 ## 1. Enhancing Understanding
 Data visualization helps us bridge the gap between raw, complex datasets and human comprehension. Through visual forms, we can represent data in a way that's intuitive and easier to grasp, making it more accessible to both technical and non-technical audiences. This visual translation aids in the identification of patterns, trends, and anomalies within the data.
