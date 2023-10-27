@@ -81,6 +81,10 @@ E.G., Profit, Quantity Sold, Height, Weight, Temperature, Etc.
  #   B. Unstructured Data:
      This Type Of Data Does Not Have The Proper Format And Therefore Known As Unstructured Data.This Comprises Textual 
       Data, Sounds, Images, Videos, Etc.
+   ### Target: final output you are trying to predict, also know as y. It can be categorical (sick vs non-sick) or continuous (price of a house).
+   ### Label: true outcome of the target. In supervised learning the target labels are known for the trainining dataset but not for the test.
+
+Label is more common within classification problems than within regression ones. Nonetheless, they are often used interchangeably without great precision.
 # (structured vs unstructured ) :
 ![image](https://github.com/wissemkarous/ML-Doc-GDSC/assets/115191512/21b37ae5-86cd-42cf-a7d4-63f89112febf)
 # Machine learning types : 
