@@ -131,3 +131,91 @@ Histogram: Great for visualizing the distribution of a single numerical variable
 for more details check this book : [ Resources/How-to-Choose.pdf](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf)https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf<br>
 what's correlation : <br>
 ![image](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/assets/115191512/d363a0d9-e2d6-4e52-a3de-a2a7732300bd)
+# Tabular Data:
+
+For Machine Learning we commonly use tabular data and structured data.
+
+This how the  tabular data going to look like:
+
+![4_train-test-split2.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/9fbb1059-43e8-456f-ab63-f4e483edd612/4_train-test-split2.jpg)
+
+The dataset is separated to features (n columns) and target (1 column).
+
+The features are the characteristics or attributes of the data that the model uses to make predictions about the target variable.
+
+This was for the supervised learning. For the unsupervised learning the data does have a target.
+
+![Supervised_vs_Unsupervised_aa9a08ac32.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/e66cb0bb-9e16-4051-b5e2-c13296230b35/Supervised_vs_Unsupervised_aa9a08ac32.png)
+
+After all this the cycle of our data:
+
+![4_train-test-split.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/f9ced929-ad32-4d1f-93ae-1457ae84b702/4_train-test-split.jpg)
+
+After extracting the target and the features, we going to extract the training and testing data (data split).
+
+# Missing Values:
+
+- How do we get missing values: **Missing values can occur for various reasons, including data entry errors, incomplete data collection.**
+- How to see missing values with code: **These values are usually denoted as "NaN" (Not-a-Number) in numerical datasets or as "null" in dataset.**
+- Impact on Machine Learning Models:
+1. **It may lead to incorrect prediction.**
+2. **Reduced Model Performance.**
+3. **Many ML models cannot handle missing values, so they will return errors.**
+
+![missing values.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/8cc078b7-69e5-49ee-92dd-241bfc64bb7c/missing_values.png)
+
+**Missing values imputation:** Missing values can be imputed with a provided constant value, or using the statistics (mean, median or most frequent) of each column in which the missing values are located.
+
+# What Outliers are
+
+- An outlier is a data point in a dataset that significantly differs from the majority of the other data points.
+- Outliers can be caused by various factors, including errors in data collection, natural variation, or extreme events.
+
+Example:
+
+![image02_81f0f88c38.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/0736ecde-c366-4e8c-8701-b05ccbc126b9/image02_81f0f88c38.png)
+
+![Add a heading.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/97a78b53-e630-46cf-8760-84b9d7a7b83d/Add_a_heading.png)
+
+![huber-regression.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/fcfc6d5c-3014-4622-85ac-ef1e081466a7/huber-regression.png)
+
+- Boxplots and identifying outliers:
+
+Boxplot:
+
+![Boxplot.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/b235ba15-9da5-4893-9117-3c91f5598af4/Boxplot.png)
+
+1. First quartile (***Q1):  25% of the data values are lower than this point.***
+2. Median (***Q2): the middle value of the dataset, so that 50% of the data values are lower than this point.***
+3. Third quartile (***Q3): 75% of the data values are lower than this point.***
+4. IQR: Interquartile range
+
+Boxplot and outliers visualization:
+
+![IQR.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/b30a1d97-9ec9-4d3f-9dba-a6b46bb2ec5d/IQR.png)
+
+# Correlation Explanation:
+
+### Correlation Formula:
+
+**ρ (X, Y) = cov(X, Y) / (σ(X) * σ(Y))**
+
+- **ρ (X, Y):** This is the Pearson correlation coefficient between the variables X and Y. It quantifies the strength and direction of the linear relationship between these two variables. The value of ρ can range from -1 to 1.
+- **cov(X, Y):** The covariance between X and Y. Covariance is a measure of how two variables change together. A positive covariance indicates that when one variable increases, the other tends to increase as well, and vice versa for negative covariance. However, the magnitude of covariance is not standardized, so it may be challenging to compare across different datasets.
+- **σ(X) and σ(Y):** The standard deviations of the variables X and Y, respectively. The standard deviation measures the degree of dispersion or variability in the values of a variable. A high standard deviation means that the values are spread out, while a low standard deviation indicates that the values are close to the mean.
+
+![corr.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/3f15b731-3581-4c88-a963-62966b9b0b48/corr.png)
+
+### Correlation Helps Selecting Important Features:
+
+Analyzing the correlation between features and the target variable is a critical step in feature selection and model building in machine learning. Features that have a strong positive or negative correlation with the target variable are typically **considered more important for predicting the target** and are more likely **to be included in the model**. features with little to no correlation with the target may be less informative and can potentially be excluded from the model to simplify it.
+
+# Normal Distribution:
+
+A normal distribution, is a common way that numbers naturally spread out in many real-world situations. It looks like a symmetrical curve with a peak in the middle and tails on both sides
+
+### Why it’s useful in Machine Learning:
+
+**Predictive Power:** In many cases, data that follows a normal distribution is easier to work with. Machine learning models often make predictions based on patterns they find in data. Normal distributions help these models find those patterns more easily.
+
+**Assumptions:** Some machine learning methods assume that the data they work with is normally distributed. It's like giving the model a hint about how the data behaves. For example, linear regression assumes that the relationship between variables is linear, and the errors follow a normal distribution. This assumption simplifies the math and can make the model work better.
