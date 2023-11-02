@@ -1,4 +1,4 @@
-# Introduction
+# Introduction :
 In this second session, we will delve into the world of data visualization and the key libraries that empower us to transform raw data into insightful visual representations.
 By the end of this session, participants will have a comprehensive understanding of the pivotal role data visualization plays in enhancing data exploration, analysis, and ultimately model performance. We will focus on essential Python libraries such as Pandas, Matplotlib, and Seaborn to achieve this goal.
 Data Visualization: Unveiling the Power
