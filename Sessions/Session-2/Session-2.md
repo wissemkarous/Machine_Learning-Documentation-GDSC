@@ -137,8 +137,8 @@ For Machine Learning we commonly use tabular data and structured data.
 
 This how the  tabular data going to look like:
 
-![4_train-test-split2.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/9fbb1059-43e8-456f-ab63-f4e483edd612/4_train-test-split2.jpg)
-
+[![4_train-test-split2.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/72890f4e-3da1-4511-b1ca-6ecc3909f1fe/9fbb1059-43e8-456f-ab63-f4e483edd612/4_train-test-split2.jpg)
+](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/tree/63819e0ed5b39e5ece7cc4f3925aa6b14edb2a5b/Resources/P-bascis)
 The dataset is separated to features (n columns) and target (1 column).
 
 The features are the characteristics or attributes of the data that the model uses to make predictions about the target variable.
