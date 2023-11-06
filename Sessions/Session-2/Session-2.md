@@ -45,7 +45,12 @@ Selecting Data: Indexing and Slicing An Array
 Performing Mathematical and other Basic Operations
 Performing Basic Statistics
 Manipulating Data
+<br/>
+<br/>
 ![image](https://github.com/GDSC-ENETCOM/GDSC-MachineLearning-Documentation/assets/115191512/8ef6b998-7ff2-4bad-85ed-7141163a94e6)
+<br/>
+<br/>
+
 ### 2 - Data Manipulation with Pandas
 Basics of Pandas
 Series and DataFrames
@@ -57,7 +62,13 @@ Groupby
 Merging, Joining and Concatenate
 Beyond Dataframes: Working with CSV, and Excel
 Real World Exploratory Data Analysis (EDA)
+<br/>
+<br/>
+
 ![image](https://github.com/GDSC-ENETCOM/GDSC-MachineLearning-Documentation/assets/115191512/2d2eaffc-4095-4be9-9fa3-25ffd8ada244)
+
+<br/>
+<br/>
 # Data Visualization :
 ### Data Visualizations with Matplotlib : 
 To gain more insights or understand the problem you're solving, it is very important to visualize the dataset that you are working with.
@@ -130,6 +141,9 @@ Heatmap: Shows the intensity of relationships between two categorical variables.
 Histogram: Great for visualizing the distribution of a single numerical variable.<br>
 for more details check this book : [ Resources/How-to-Choose.pdf](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf)https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/5faa0ff20e0b18427b93c050b82749977b0b1dc3/Resources/How-to-Choose.pdf<br>
 what's correlation : <br>
+<br/>
+<br/>
+
 ![image](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/assets/115191512/d363a0d9-e2d6-4e52-a3de-a2a7732300bd)
 # Tabular Data:
 
