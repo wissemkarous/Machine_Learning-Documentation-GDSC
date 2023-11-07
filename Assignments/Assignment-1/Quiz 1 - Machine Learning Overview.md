@@ -48,9 +48,3 @@
 - we define the problem or opportunity to be addressed.
 - we prepare the data for analysis.
 
-### 8. What is the main difference between KNIME and Spark MLlib?
-
-- KNIME requires programming, while Spark MLlib does not.
-- KNIME requires programming in Java, while Spark MLlib requires programming in Python.
-- **KNIME is a graphical user interface-based machine learning tool, while Spark MLlib provides a programming-based distributed platform for scalable machine learning algorithms.**
-- KNIME originated in Germany, while Spark MLlib was created in California, USA.
