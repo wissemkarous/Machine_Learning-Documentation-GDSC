@@ -77,8 +77,8 @@ Moving on to the main highlight of this article – techniques used in data impu
 
 - **Z-Score:** Calculate the Z-score for each data point. Z-score measures how many standard deviations a data point is from the mean. Typically, a Z-score above a certain threshold (e.g., 2 or 3) indicates an outlier.
 
-![Untitled](Data%20Preprocessing%20185ff11628fc4c2da7b96d7b73d0b527/Untitled%201.png)
-
+[![Untitled](Data%20Preprocessing%20185ff11628fc4c2da7b96d7b73d0b527/Untitled%201.png)
+](https://github.com/wissemkarous/Machine_Learning-Documentation-GDSC/blob/f654b309f71c955b8aca6a3b0f0734e49815eab9/Sessions/Session-4/Data%20Preprocessing/Untitled%201.png)
 [https://www.notion.so](https://www.notion.so)
 
 - **IQR (Interquartile Range):** Calculate the IQR (the range between the first quartile Q1 and the third quartile Q3). Data points beyond a certain range outside of Q1 and Q3 can be considered outliers.
